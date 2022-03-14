@@ -46,10 +46,10 @@ body{
 #portfolio{
   display: flex;
   flex-wrap: wrap;
-  align-items:center;
-  margin-left:18%;
-  margin-right: 16%; 
-  position: relative;
+  align-items:right;
+  margin: left 1px;;
+  margin-right: 18px; 
+  position:static;
 }
 
 @media only screen and (max-width: 1024px){
@@ -92,3 +92,4 @@ body{
     margin-top: 20px;
     opacity: 0;
 }
+
