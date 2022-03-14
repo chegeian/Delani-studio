@@ -28,6 +28,7 @@ body{
   max-width: 70vw;
   margin: 30px auto;
   padding: 4.7px
+
 }
 
 #sec-5 {
@@ -42,21 +43,24 @@ body{
   margin-bottom: 50px;
 }
 
-#portfolio{
-  display: flex;
-  flex-wrap: wrap;
-  align-items:center;
-  margin-left:18%;
-  margin-right: 16%; 
+.card {
+  margin: 10px 0;
   position: relative;
+  overflow: hidden;
 }
 
-.portfolio h2{
-  text-align: center;
-  padding-top:40px;
-  font-family: 'Gabriela', serif;
+.card:hover img {
+  transform: scale(1.2);
+  transition: all 0.3s ease;
 }
-
+.card-1 {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  background: rgba(0, 0, 0, 0.582);
+  cursor: pointer;
+  display: none;
+  transition: all 0.5s ease;
 }
 @media only screen and (max-width: 1024px){
   .col-md-12 h1,#sec-2 h1,#sec-3 h1,#sec-4 h1 {
@@ -99,3 +103,6 @@ body{
     opacity: 0;
 }
 
+.card-deck {
+  padding: 1% 4%;
+}
