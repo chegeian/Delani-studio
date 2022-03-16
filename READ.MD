@@ -1,6 +1,7 @@
 # DELANI STUDIO
 #### Delani studio is a basic website aimed at helping students familiarize with various JQuery and Bootstrap concepts.
-#### By **PATRICK NDONGA**
+
+<img src="de.png" alt="site pic">
 
 ## Usage and setup.
 To practice with Delani studio, clone or download this repository (link in the section below) to your local machine, fire up your favorite text editor and start practicing!
